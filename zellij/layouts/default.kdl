@@ -1,0 +1,18 @@
+layout {
+  tab split_direction="horizontal" name="term" {
+    pane size=1 borderless=true {
+      plugin location="zellij:tab-bar"
+    }
+    pane split_direction="vertical" {
+      pane name="term" size="30%"
+      pane name="editor"
+    }
+  }
+  tab split_direction="horizontal" name="editor" {
+    pane size=1 borderless=true {
+      plugin location="zellij:tab-bar"
+    }
+    pane name="editor"
+  }
+}
+

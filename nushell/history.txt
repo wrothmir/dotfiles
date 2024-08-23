@@ -1,0 +1,1288 @@
+history -c
+history
+clear
+cd Documents/Barathrum/zet/
+ls
+clear
+nvim .
+cd Documents/Barathrum/zet
+clear
+nvim .
+premake
+bash
+clear
+../../Applications/premake-5.0.0-beta2-linux/premake5
+clear
+nvim $nu.env-path
+cd ~
+mkdir .premake
+cp Documents/Applications/premake-5.0.0-beta2-linux/* .premake/
+ls
+./premake
+cd .premake
+ls
+cd ..
+premake
+premake5
+./premake5
+.premake/premake5
+nvim $nu.env-path
+premake5
+clear
+cd Documents/Barathrum/zet
+premake5 gmake
+nvim .
+premake5 gmake
+ls
+ls build
+bat ./build/Makefile
+./build/Makefile
+./build/make
+cd build
+make
+clear
+..
+ls
+nvim .
+make
+cd build
+make
+sudo dnf install glibc-devel.i686
+clear
+make
+bat Makefile
+bat Zet.make
+nvim .
+clear
+..
+ls
+clear
+ls
+nvim .
+make
+build
+cd build
+make
+..
+nvim premake5.lua
+cd build
+make
+clear
+make clean
+make
+bash
+sudo dnf install libstdc++-devel.i686
+make
+ls
+cd bin/x86/Debug
+ls
+./Zet
+clear
+..
+.
+..
+clear
+ls
+rm -rf build
+clear
+ls
+nvim .
+clear
+nvim .
+cd build
+ls
+premake5 gmake
+cd ls
+ls
+cd build
+ls
+make
+cd bin/x86/Debug/
+ls
+Zet
+./Zet
+nvim .
+..
+clear
+cd build
+make
+make clean and make
+make
+./bin/x86/Debug/Zet
+nvim .
+ls
+make clean
+make
+./bin/x86/Debug/Zet
+clear
+..
+clear
+nvim .
+cd Documents/Barathrum/zet
+cd Documents/Barathrum/zet
+premake5 gmake
+cd build
+make
+make clean
+make
+./bin/x86/Debug/Zet
+nvim .
+premake5 gmake
+cd build
+make
+./bin/x86/Debug/Zet
+clear
+nvim .
+..
+nvim .
+clear
+clear
+..
+cd Documents/Barathrum/zet
+clear
+cd build
+..
+ls
+cp Common/* ECS/ -r
+ls
+ls ECS
+rm -rf Common
+clear
+cd bulid
+cd build
+nvim .
+..
+mkdir Primitives
+rm Primitives/
+mkdir Primitives
+cp ./ECS/CommonHeaders.h ./Primitives/
+cp ./ECS/Id.h ./Primitives/
+cp ./ECS/PrimitiveTypes.h ./Primitives/
+ls ./Primitives/
+clear
+nvim .
+cd build
+make
+..
+premake5 gmake
+cd bulid
+cd build
+make
+./bin/x86/Debug/Zet
+clear
+cd Documents/Barathrum/zet
+clearn
+clear
+reset
+reset
+cd Documents/Barathrum/zet
+cd build
+make
+nvim .
+./bin/x86/Debug/Zet
+cd Documents/Barathrum/zet
+ls
+clear
+cd Documents/Barathrum/zet
+nvim .
+premake5 gmake
+cd bulid
+cd build/
+make
+clear
+make
+cd Documents/Barathrum/zet
+cd build
+make
+exit
+cd Documents/Barathrum/zet
+cd build
+make
+nvim .
+clear
+clear
+exit
+cd Documents/personal/projects
+mkdir whiskey
+cd whiskey
+touch main.py
+python -m venv
+pythen -m venv venv
+python -m venv venv
+ls
+nvim .
+python main.py
+pip install tkinter
+pip install tk
+pip install --upgrade pip
+python main.py
+pip freeze | grep tk
+python
+sudo dnf install python3-tkinter<\n>
+python main.py
+nvim .
+pip install pandas
+nvim .
+python main.py
+nvim .
+python main.py
+clear
+run-venv
+bluetoothctl
+clear
+blu
+bluetoothctl
+bluetoothctl status
+bluetoothctl devices
+bluetoothctl disconnect
+clear
+bluetoothctl 
+bluetoothctl
+nvim ~/.config/sway/config
+bluetoothctl
+nvim .
+bluetoothctl
+cd `Documents/Barathrum/zet ai/`
+git@github.com:joonspk-research/generative_agents.git
+git clone git@github.com:joonspk-research/generative_agents.git
+git status
+ls -al ~/.ssh
+ssh-keygen -t ed25519 -C "vineetagarwal2402@gmail.com"
+eval "$(ssh-agent -s)"
+bash
+ssh-add ~/.ssh/id_ed25519
+^ssh-agent -c<\n>    | lines<\n>    | first 2<\n>    | parse "setenv {name} {value};"<\n>    | transpose -r<\n>    | into record<\n>    | load-env<\n>
+nvim $nu.env
+nvim $nu.env-path
+ssh-add ~/.ssh/id_ed25519
+clear
+exit
+ssh-add ~/.ssh/id_ed25519
+history
+ls -al ~/.ssh
+bat ~/.ssh/id_ed25519.pub
+gnome-text-editor ~/.ssh/id_ed25519.pub
+clear
+cd `Documents/Barathrum/zet ai/`
+git clone git@github.com:joonspk-research/generative_agents.git
+cd `Documents/Barathrum/zet ai/`
+clear
+cd `Documents/Barathrum/zet ai/`
+clear
+nvim .
+python manage.py runserver
+cd generative_agents/reverie/
+ls
+cd backend_server/
+ls
+..
+ls
+cd environment/frontend_server/
+ls
+clear
+ls
+python -m venv venv
+exit
+run-venv
+rm -rf venv
+clear
+..
+ls
+clear
+ls
+python -m venv venv
+pip install -r requirements.txt
+pip install distutils
+pip install --upgrade pip
+cd Downloads/
+sha256sum Miniconda3-latest-Linux-x86_64.sh
+conda
+exit
+run-venv
+rm -rf venv
+clear
+bash Miniconda3-latest-Linux-x86_64.sh
+clear
+exit
+conda env
+conda env create zet_ai
+conda env create -n zet_ai python==3.9.12
+which conda
+conda --version
+conda env create -n zet_ai python=3.9.12
+conda env create -n zet_ai
+exit
+ls
+conda env create -n zet_ai
+bash
+conda create -n zet_ai python=3.9.12
+clear
+conda activate
+conda activate zet_ai
+conda init
+nvim .
+cd 'Documents/Barathrum/zet ai'
+clear
+conda activate zet_ai
+conda init
+sudo conda inint
+sudo conda init
+conda activate zet_ai
+nvim $nu.config-path
+cd 'Documents/Barathrum/zet ai'
+conda activate zet_ai
+clear
+python
+clear
+cd generative_agents/
+ls
+conda activate zet_ai
+cd 'Documents/Barathrum/zet ai'
+clear
+cd generative_agents/
+pip install -r requirements.txt
+cd environment/frontend_server/
+ls
+cd 'Documents/Barathrum/zet ai'
+conda activate zet_ai
+cd generative_agents/reverie/
+ls
+cd backend_server/
+ls
+python reverie.py
+cd `Documents/Barathrum/zet ai/`
+clear
+python reverie.py
+exit
+nvim .
+exit
+python manage.py runserver
+exit
+echo WAYLAND_DISPLAY
+echo $WAYLAND_DISPLAY
+echo $env.WAYLAND_DISPLAY
+clear
+loginctl show-session eval(loginctl | grep $(whoami) | awk '{print $1}') -p Type<\n>
+eval
+bash
+clear
+sudo sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+sudo dnf install xorg-x11-drv-nvidia-cuda
+sudo dnf update -y
+sudo dnf install xorg-x11-drv-nvidia-cuda
+bash
+clear
+sudo dnf upgrade
+sudo dnf updgrade --refresh
+sudo dnf upgrade --refresh
+sudo dnf install gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs xorg-x11-drv-nvidia-libs.i686<\n>
+nvidia-smi
+clear
+sudo akmods --force
+sudo dracut --force
+sudo dnf install xrandr
+sudo cp -p /usr/share/X11/xorg.conf.d/nvidia.conf /etc/X11/xorg.conf.d/nvidia.conf<\n>
+sudo dnf install xorg-x11-drv-nvidia-libs
+sudo dnf install xorg-x11-drv-nvidia-libs.i686
+sudo dnf install xorg-x11-drv-nvidia
+sudo dnf module list nvidia-driver
+nvidia-smi
+which cuda
+clear
+sudo dnf install cuda
+sudo dnf module disable nvidia-driver
+sudo dnf install cuda
+sudo dnf module enable nvidia-driver
+clear
+sudo dnf remove xorg-x11-drv-nvidia\*
+sudo dnf remove xorg-x11-drv-nvidia\*<\n>
+sudo dnf remove xorg-x11-drv-nvidia-\*
+sudo dnf remove xorg-x11-drv-nvidia-libs
+sudo dnf list xorg-x11-drv-nvidia-libs
+sudo dnf list
+sudo dnf list | search nvidia
+sudo dnf list | has nvidia
+exit
+sudo dnf list | find nvidia
+sudo dnf list | find nvidia | split column ' ' | select 0
+sudo dnf list | find nvidia | select 0
+sudo dnf list | find nvidia | each { |pkg| sudo dnf remove -y $pkg }
+clear
+sudo dnf list | find nvidia
+sudo dnf list installed | find nvidia
+sudo dnf list installed | find nvidia | each { |pkg| echo pkg }
+sudo dnf list installed | find nvidia | each { |pkg| echo $pkg }
+sudo dnf list installed | find nvidia | each { |pkg| sudo dnf remove $pkg -y }
+sudo dnf list installed | find nvidia | select 0 | each { |pkg| sudo dnf remove $pkg -y }
+sudo dnf list installed | find nvidia | select 0
+sudo dnf list installed | find nvidia | select 0 | split
+sudo dnf list installed | find nvidia | select 0 | split column
+sudo dnf list installed | find nvidia | select 0 | split column ' '
+sudo dnf list installed | find nvidia | select 0 | split column ' ' | select column1
+sudo dnf list installed | find nvidia | select 1| split column ' ' | select column1
+sudo dnf list installed | find nvidia | each { |pkg| split column ' ' } | select column1
+sudo dnf list installed | find nvidia | each { |pkg| split column ' ' | select column1 }
+sudo dnf list installed | find nvidia | each { |pkg| split column ' ' | select column1 | select 0}
+sudo dnf list installed | find nvidia | each { |pkg| split column ' ' | select column1 | echo $pkg}
+sudo dnf list installed | find nvidia | split column ' '
+sudo dnf list installed | find nvidia | split column ' ' | select column1
+sudo dnf list installed | find nvidia | split column ' ' | select 0
+sudo dnf list installed | find nvidia | split column ' ' | select column 1
+sudo dnf list installed | find nvidia | split column ' ' | select column1
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | each { |pkg| echo $pkg }
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | each { |pkg| sudo dnf remove $pkg -y }
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | each { |pkg| sudo dnf remove string($pkg) -y }
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | each { |pkg| sudo dnf remove [$pkg] -y }
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | to text
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | to text | split 
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | to text | each { |pkg| echo $pkg }
+sudo dnf list installed | find nvidia | split column ' ' | select column1 | to text | grep ^nvidia | each { |pkg| echo $pkg }
+sudo dnf list installed | find nvidia | split column ' ' | select column1
+sudo dnf remove akmod-nvidia.x86_64
+sudo dnf list installed | find nvidia | split column ' ' | select column1
+sudo dnf remove kmod-nvidia-latest-dkms.x86_64
+sudo dnf list installed | find nvidia | split column ' ' | select column1
+sudo dnf list installed | find nvidia 
+sudo dnf remove nvidia-gpu-firmware.noarch
+sudo dnf remove xorg-x11-drv-nvidia-libs
+clear
+reboot
+nvidia-smi
+clear
+nvidia-smi
+htop
+sudo dnf list *nvidia*<\n>
+sudo dnf module list nvidia-driver
+sudo dnf remove nvidia* --allowerasing
+sudo /usr/bin/nvidia-uninstall
+sudo /usr/local/cuda-X.Y/bin/cuda-uninstall
+sudo dnf upgrade --refresh
+sudo dnf install akmod-nvidia
+sudo dnf install xorg-x11-drv-nvidia-cuda
+history | find "sudo dnf install"
+sudo dnf install xorg-x11-drv-nvidia-cuda.i686\
+sudo dnf install xorg-x11-drv-nvidia-cuda.i686
+lscpu
+exit
+clear
+exit
+sudo dnf -y install cuda
+nvidia-smi
+nvcc
+reboot
+nvidia-smi
+nvcc
+nvcc --version
+bash
+sudo dnf -y remove cuda
+which nvidia
+which nvidia-smi
+nvidia-smi
+clear
+sudo dnf install akmod-nvidia
+reboot
+nvidia-smi
+sudo dnf install xorg-x11-drv-nvidia-cuda
+sudo dnf install akmod-nvidia
+sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+sudo dnf module list --enabled<\n>
+sudo dnf module enable nvidia-driver:latest<\n>sudo dnf module enable gnome:latest<\n>
+sudo dnf module enable nvidia-driver
+sudo dnf module enable gnome
+sudo dnf clean all<\n>sudo rm -r /var/cache/dnf<\n>
+sudo dnf update -y<\n>
+sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+sudo nvim /etc/dnf/dnf.conf
+sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+sudo nvim /etc/dnf/dnf.conf
+sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+nvidia-smi
+reboot
+nvidia-smi
+sudo dnf install gnome-session-wayland-session xorg-x11-drv-nvidia xorg-x11-drv-nvidia-cuda<\n>
+sudo dnf install -y fedora-workstation-repositories sudo dnf config-manager --set-enable rpmfusion-nonfree-nvidia-driver
+sudo dnf install -y fedora-workstation-repositories
+sudo dnf config-manager --set-enable rpmfusion-nonfree-nvidia-driver
+clear
+sudo dnf install -y gcc kernel-headers kernel-devel akmod-nvidia xorg-x11-drv-nvidia xorg-x11-drv-nvidia-libs
+sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/fedora33/x86_64/cuda-fedora39.repo
+sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/fedora33/x86_64/cuda-fedora40.repo
+sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/fedora40/x86_64/cuda-fedora40.repo
+sudo dnf config-manager --add-repo https://developer.download.nvidia.com/compute/cuda/repos/fedora39/x86_64/cuda-fedora39.repo
+sudo dnf update --refresh
+sudo dnf install cuda
+screenfetch
+neofetch
+clear
+nvim .
+clear
+nvidia-smi
+nvcc --version
+python
+clear
+conda activate zet_ai
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+clear
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+python
+sudo dnf reinstall xorg-x11-drv-evdev xorg-x11-drv-libinput<\n>
+sudo dracut --force
+sudo dnf list installed | find 'nvidia'
+sudo dnf remove cuda
+clear
+nvidia-smi
+clear
+reboot
+nvidia-smi
+sudo dnf update --refresh
+sudo dnf install kernel-devel kernel-headers gcc make dkms acpid libglvnd-glx libglvnd-opengl libglvnd-devel pkgconfig<\n>
+bash
+clear
+nvidia-smi
+clear
+sudo dnf remove akmod-nvidia
+sudo dnf module disable nvidia-driver
+sude dnf install akmod-nvidia
+sudo dnf install akmod-nvidia
+nvidia-smi
+clear
+reboot
+nvidia-smi
+python
+conda activate zet_ai
+python
+exit
+exit
+exit
+sudo dnf module enable nvidia-driver
+nvidia-smi
+sudo dnf module disable nvidia-driver
+sude dnf install akmod-nvidia
+sudo dnf install akmod-nvidia
+sudo dnf module enable nvidia-driver
+rebooot
+reboot
+nvidia-smi
+sudo dnf module disable nvidia-driver
+sudo dnf install cuda
+nvidia-smi
+clear
+reboot
+nvidia-smi
+clear
+conda activate zet_ai
+nvcc --version
+clear
+bash
+clear
+python
+clear
+exit
+exit
+exit
+nvidia-smi
+exit
+bash
+exit
+cd `Documents/Barathrum/zet ai/`
+nvim .
+nvidia-smi
+exit
+cd `Documents/Barathrum/zet ai/`
+ls
+mkdir test
+cd test
+conda activate zet_ai
+pip install nx
+pip install numpy
+pip install numpy networkx
+pip install torch torchvision torchaudio
+pip install torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric
+clear
+pip install torch
+pip install jupyterlab
+jupyterlab
+jupyter
+jupyter lab
+pip install ipywidgets
+pip install -u jupyter
+pip
+clear
+jupyter lab
+clear
+ee
+..
+nvim .
+clear
+nvim .
+ls
+cd Documents/
+ls
+..
+nvim .
+mkdir .tex
+cd .tex
+ls
+wget https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+zcat < install-tl-unx.tar.gz | tar xf -
+ls
+zcat < install-tl-unx.tar.gz | tar xf -
+gzcat < install-tl-unx.tar.gz | tar xf -
+tar -xzf install-tl-unx.tar.gz
+ls
+cd install-tl-20240805/
+perl ./install-tl --no-interaction
+sudo perl ./install-tl --no-interaction
+tex
+exit
+touch test_download.py
+exit
+python test_download.py
+run
+python test_download.py
+exit
+run-venv
+exit
+pip freeze
+pip freeze -m
+pip freeze -h
+pip freeze -r
+pip freeze -l
+python -m pip freeze
+pip freeze | grep -vE 'selinux|sepolicy'
+pip freeze | grep -vE '@'
+pip freeze | grep -vE '@' | save requirements.txt
+bat requirements.txt
+exit
+run-venv
+conda env create -n theia
+conda create -n theia
+conda activate theia
+clear
+pip install -r requirements.txt
+python main.py
+bat requirements.txt
+pip install pydantic
+pip install pandas
+pip install -u pydantic
+pip install --user pydantic
+pip install --user pandas
+pip install dotenv
+pip install --user dotenv
+pip install --upgrade pip
+pip3 install --upgrade pip
+pip3 install --user dotenv
+python test_download.py
+cd Documents/personal/projects/theia/
+conda activate theia
+clear
+nvim .
+cd Documents/personal/projects/theia/
+conda activate theia
+python test_download.py
+python test_scene_list_add.py
+python test_download.py
+cd Documents/personal/projects/theia/
+ls
+cd logs
+ls
+bat theia_api.log
+clear
+bat theia_api.log
+clear
+rm theia_api.log
+touch theia_api.log
+clear
+touch theia_api.log
+bat theia_api.log
+touch theia_api.log
+python test_download.py
+clear
+python test_download.py
+bat theia_api.log
+python
+ipython
+pip install ipython
+pip3 install --user ipython
+ls ~/.conda/
+ls ~/.conda/envs
+ls ~/.conda/envs/theia/
+ls ~/.conda/envs/theia/conda-meta/
+conda install pydantic
+conda install pandas
+conda list
+conda install dotenv
+conda install ipython
+ipython
+conda install requests
+..
+conda activate theia
+python test_download.py
+bat logs/theia_api.log
+clear
+python test_download.py
+ipython
+clear
+nvim .
+ipython
+clear
+python test_download.py
+clear
+python test_download.py
+nvim test_download.py
+python test_download.py
+clear
+python test_download.py
+ls
+ls downloads/
+clear
+python test_download.py
+clear
+ls downloads
+clear
+ipython
+clear
+ipython
+ls downloads/
+clear
+python test_download.py
+ls downloads/
+python test_download.py
+clear
+reset
+reset
+git status
+git add .env.shared
+git add *
+git add requirements.txt
+git status
+git commit -m "Added download functionality"
+git push origin master
+clear
+python test_download.py
+clear
+python test_download.py
+git log
+clear
+ls downloads/
+conda install multiprocessing
+conda install conda-forge::multiprocess
+clear
+python test_download.py
+clear
+python test_download.py
+clear
+python test_download.py
+nvim .
+python test_download.py
+clear
+git status
+git add api.py
+git commit -m "Fix multithreaded downloads hanging"
+git push origin master
+git config --global --edit
+git push origin master
+clear
+git status-
+git status
+nvim .
+git add .gitignore
+git commit -m "Modify gitignore"
+git push origin master
+git status
+clear
+mkdir tests
+mv ./test_* ./tests/
+ls
+git add tests/ -r
+git add tests/*
+nvim .gitignore
+git status
+git add .gitignore
+git add tests/*
+git status
+git add -u
+git status
+git commit -m "Move tests to folder"
+git push origin master
+clear
+touch README.md
+nvim README.md
+git add README.md
+git commit -m "Add README"
+git config --global user.name "Vineet Agarwal"
+git config --global user.email "vineetagarwal2402@gmail.com"
+git commit --amend --reset-author
+git push origin master
+nvim README.md
+git add README.md
+git commit -m "Fix README"
+git push origin master
+..
+conda deactivate
+ls
+cd whiskey/
+ls
+cd main
+ls
+nvim .
+ls
+nvim .
+python main.py
+nvim .
+python main.py
+clear
+nvim .
+exit
+nvim .
+git status
+git add api.py
+git add data_types.py
+cd Documents/personal/projects/theia/
+conda activate theia
+nvim .
+python test_download.py
+python ./test/test_download.py
+python ./tests/test_download.py
+nvim .
+python ./tests/test_download.py
+cp ./tests/test_download.py .
+nvim test_download.py
+python test_download.py
+nvim .
+python test_download.py
+nvim .
+pip install pyqt
+pip install PyQt5
+clear
+nvim .
+python m
+python main.py
+nvim .
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+nvim .
+python main.py
+nvim main.py
+python main.py
+nvim main.py
+python main.py
+cp Documents/personal/projects/ Documents/Barathrum/ -r
+cd Documents/Barathrum
+ls
+cd projects
+ls
+cd whis
+cd whiskey/
+l
+ls
+clear
+nvim .
+cd main
+cd Documents/Barathrum/projects/whiskey/main
+run
+python main.py
+clear
+nvim main.py
+python main.py
+pip freeze
+pip freeze | grep -vE '@' | save requirements.txt
+pip freeze | grep -vE '@' | save requirements.txt --force
+exit
+run-venv
+exit
+cd Documents/personal/projects/whiskey/
+cd main
+jupyter lab
+conda activate zet
+conda activate zet_ai
+python main.py
+ls
+touch bottlers.csv
+python main.py
+jupyter lab
+clear
+jupyter lab
+python main.py
+exit
+exit
+run-venv
+../..
+ls
+cd theia
+git status
+git add theia/*
+git add -u
+git status
+git commit -m "Reorganize code"
+clear
+nvim .
+exit
+nvim main.py
+exit
+run-venv
+exit
+cd Documents/personal/projects/theia/
+..
+cd ~
+ls -s Documents/personal/projects/theia/ ~/
+help ls
+pcman
+pcmanfm
+help ln
+ls
+ln
+ln --help
+ln -s ~/Documents/personal/projects/theia/ ~
+ls
+cd theia
+ls
+clear
+git status
+nvim .
+conda activate theia
+conda install sphinx
+docker
+sudo dnf -y install dnf-plugins-core<\n>sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+sudo docker run hello-world
+clear
+docker ps
+sudo docker ps
+sudo docker 
+sudo docker images
+cd theia
+..
+ls
+mkdir docker-test
+cd docker-test
+echo "Django>=3.0,<4.0<\n>shortuuid>=1.0.1<\n>gunicorn" | save requirements.yml
+ls
+touch ./Dockerfile
+nvim Dockerfile
+docker build -t docker-test-dev .
+sudo docker build -t docker-test-dev .
+nvim Dockerfile
+sudo docker build -t docker-test-dev .
+pwd
+$pvd
+cd
+cd theia
+..
+cd docker-test/
+ls
+clear
+pwd
+eval(pwd)
+$env::current_path
+$env.current_path
+$env
+pwd
+docker run -it --name myapp --rm \<\n>    --volume (pwd | str trim):/usr/src/app \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+docker run -it --name myapp --rm \<\n>    --volume (pwd | str trim)/usr/src/app \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+(pwd | str trim):/x
+(pwd | append "usr/src/app" | str join "/")
+docker run -it --name myapp --rm \<\n>    --volume (pwd | append /usr/src/app | str join "/") \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+docker run -it --name myapp --rm \<\n>    --volume pwd | append /usr/src/app | str join "/" \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+let file: string = (pwd | append /usr/src/app | str join "/")
+file
+$file
+docker run -it --name myapp --rm \<\n>    --volume $(pwd | append /usr/src/app | str join "/") \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+let file: string = (pwd | append /usr/src/app | str join "")
+docker run -it --name myapp --rm \<\n>    --volume $file \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+docker run -it --name myapp --rm \<\n>    --volume eval($file) \<\n>    --net=host myapp-dev:latest \<\n>    sh<\n>
+(pwd).path
+$env.PWD
+docker run -it --name myapp --rm \<\n>    --volume ($env.PWD)/usr/src/app \<\n>    --net=host myapp-dev:latest \<\n>    sh
+$($env.PWD | append /usr/src/app | str join "")
+($env.PWD | append /usr/src/app | str join "")
+docker run -it --name myapp --rm \<\n>    --volume ($env.PWD | append /usr/src/app | str join "") \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume $($env.PWD | append /usr/src/app | str join "") \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume $(build-string $(pwd) /usr/src/app) \<\n>    --net=host myapp-dev:latest \<\n>    sh
+$file
+docker run -it --name myapp --rm \<\n>    --volume ^$"($pwd)/usr/src/app" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume ^$"(pwd)/usr/src/app" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume ^$"($file)" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume ^"($file)" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+docker run -it --name myapp --rm \<\n>    --volume ^$file \<\n>    --net=host myapp-dev:latest \<\n>    sh
+^$file
+^$($file)
+^$"($file)"
+$file
+$"($file)"
+docker run -it --name myapp --rm \<\n>    --volume $"($file)" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+$(build-string $(pwd) \test)
+$(build-string pwd \test)
+$(build-string $env.PWD \test)
+$(build-string ($env.PWD) \test)
+$(build-string $($env.PWD) \test)
+echo $(build-string $(pwd) \test)
+"$(pwd | str trim)":/x
+$"$(pwd | str trim)":/x
+$"(pwd | str trim)"/x
+$"(pwd | str trim)/x"
+docker run -it --name myapp --rm \<\n>    --volume $"(pwd | str trim)/usr/app/src" \<\n>    --net=host myapp-dev:latest \<\n>    sh
+build-string
+^echo $file
+docker run -it --name myapp --rm \<\n>    --volume ^(echo $file) \<\n>    --net=host myapp-dev:latest \<\n>    sh
+clear
+bash
+clear
+docker ls
+docker ps
+sudo docker ps
+sudo docker images
+docker
+docker images
+sudo docker images
+sudo docker images -h
+sudo docker image ls
+sudo docker rmi docker-test-dev
+ls
+clear
+..
+ls
+history
+clear
+ls
+cd Documents/personal/projects/docker-test/
+ls
+cd mysite/
+LS
+ls
+clear
+..
+cd Documents/personal/projects
+ls
+mkdir portfolio
+cd portfolio
+git init
+git remote add origin https://github.com/nooodle-soup/nooodle-soup
+status
+git status
+git pull
+ls
+git pull origin master
+ls
+rm -rf *
+ls
+touch Dockerfile
+touch requirements.txt
+$"Django>=4.2,<5.0" | save requirements.txt
+$"Django>=4.2,<5.0" | save requirements.txt -f
+nvim Dockerfile
+touch docker-compose.yml<\n>
+nvim docker-compose.yml
+docker-compose run web django-admin startproject portfolio .
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+docker-compose
+cd ~/Downloads
+l
+ls
+sudo dnf install ./docker-desktop-x86_64.rpm
+bash
+docker-compose
+clear
+sudo dnf remove./docker-desktop-x86_64.rpm
+sudo dnf remove ./docker-desktop-x86_64.rpm
+clear
+docker-compose run web django-admin startproject portfolio .<\n>
+sudo docker-compose run web django-admin startproject portfolio .
+docker image list
+sudo docker image list
+docker rmi docker-test-dev
+sudo docker rmi docker-test-dev
+sudo dnf update --refresh
+clear
+..
+sudo -i
+bash
+ls
+clear
+cd portfolio/
+ls
+cd portfolio
+ls
+nvim Dockerfile
+nvim docker-compose.yml
+docker-compose up --build
+sudo -i
+docker-compose up --build
+sudo docker image list
+..
+ls
+rm manage.py
+rm -rf portfolio
+sudo rm -rf portfolio
+docker-compose run web django-admin startproject myportfolio .
+sudo docker-compose run web django-admin startproject myportfolio .<\n>
+ls
+docker-compose up
+sudo -i
+clear
+ls
+cd myportfolio/
+ls
+sudo nvim settings.py
+sudo docker-compose run web python manage.py migrate
+..
+clear
+sudo docker-compose run web python manage.py startapp portfolio
+ls
+rm -rf myportfolio/
+sudo rm -rf portfolio
+clear
+history
+sudo docker-compose up --build
+clear
+clear
+..
+cd theia/
+nvim .
+clear
+cd ~/.config/nvim
+ls
+nvim .
+nvim 
+nvim .
+exit
+zellij
+nvim .
+exit
+nu
+exit
+exit
+exit
+cd ~/.config
+nvim 
+nivm .
+nvim .
+source nu-themes/gruvbox-dark-hard.nu
+ls $nu.env-path/themes/nu-themes
+ls $nu.env-path/themes
+ls ~/.config/nushell/scripts/themes/
+source ~/.config/nushell/scripts/themes
+source ~/.config/nushell/scripts/themes/gruvbox-dark-hard.nu
+ls
+nvim zellij
+:q
+exit
+cd ~/.config
+nvim zellij
+nvim 
+nvim .
+exit
+nvim ~/.config/alacritty
+cd ~/.config
+nvim nushell
+clear
+exit
+zellij
+exit
+nvim ~/.config/nushell
+nvim $env.theme
+nvim $env
+nvim $nu.env
+$env
+clear
+reset
+nvim .
+nvim ./.config
+nvim ./.config/nvim/
+exit
+exit
+exit
+rm -rf /home/nooodlesoup/.local/share/nvim/site/
+nvim 
+rm -rf ~/.config/nvim/plugin/
+nvim
+rm /usr/local/bin/luarocks*<\n>rm -rf /usr/local/share/lua/5*/luarocks<\n>rm -rf /usr/local/etc/luarocks*
+clear
+wget https://luarocks.org/releases/luarocks-3.11.1.tar.gz
+tar zxpf luarocks-3.11.1.tar.gz
+cd luarocks-3.11.1
+./configure && make && sudo make install
+./configure and make and sudo make install
+./configure ;make ;sudo make install
+./configure --help
+which lua
+lua --version
+lua -v
+./configure --lua-version=5.4;make ;sudo make install
+curl -L -R -O https://www.lua.org/ftp/lua-5.4.7.tar.gz<\n>tar zxf lua-5.4.7.tar.gz<\n>cd lua-5.4.7<\n>make all test
+clear
+./configure --lua-version=5.4;make ;sudo make install
+ls
+~
+ls
+./configure --lua-version=5.4;make ;sudo make install
+cd luarocks-3.11.1/
+./configure --lua-version=5.4;make ;sudo make install
+which lua
+./configure --lua-version=5.4 --with-lua=/usr/bin/lua;make ;sudo make install
+./configure --lua-version=5.4 --with-lua="/usr/bin/lua";make ;sudo make install
+/usr/bin/lua
+where lua
+luarocks
+dnf list
+dnf list installed
+dnf list installed | grep lua
+sudo dnf remove lua*
+which lua
+clear
+nvim .
+..
+ls
+rm -rf luarocks-3.11.1*
+ls
+clear
+nvim 
+nvim
+nvim ~/.config/nvim
+clear
+cd theia/
+~
+ls
+cd theia/
+clear
+ls
+nvim theia
+cd ~/.config/nvim
+clear
+ls
+nvim .
+..
+git init
+git remote add origin https://github.com/nooodle-soup/dotfiles
+git status
+git pull origin master
+git remote add origin git@github.com:nooodle-soup/dotfiles.git
+git remote -h
+git remote set-url origin git@github.com:nooodle-soup/dotfiles.git
+git remote get-url origin
+git pull origin master
+git status
+git add alacritty
+git rm --cached alacritty/themes
+git rm --cached alacritty/themes -f
+clear
+git status
+git add mako
