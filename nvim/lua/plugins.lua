@@ -12,7 +12,10 @@ return {
     name = 'gruvbox',
     config = function()
       vim.cmd('colorscheme gruvbox')
-    end
+    end,
+    opts = {
+      background = "dark"
+    }
   },
   {
     'folke/tokyonight.nvim',

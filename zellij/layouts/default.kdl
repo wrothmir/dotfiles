@@ -1,17 +1,22 @@
 layout {
-  tab split_direction="horizontal" name="term" {
+  default_tab_template {
     pane size=1 borderless=true {
       plugin location="zellij:tab-bar"
     }
+    children
+  }
+
+  tab split_direction="horizontal" name="home" focus=true {
     pane split_direction="vertical" {
-      pane name="term" size="30%"
-      pane name="editor"
+      pane size="40%" { 
+        pane name="term"
+        pane name="term" 
+      }
+      pane name="term"
     }
   }
+
   tab split_direction="horizontal" name="editor" {
-    pane size=1 borderless=true {
-      plugin location="zellij:tab-bar"
-    }
     pane name="editor"
   }
 }

@@ -137,4 +137,4 @@ $env.PATH = ($env.PATH | uniq)
 
 # To load from a custom file you can use:
 # source ($nu.default-config-dir | path join 'custom.nu')
-source ~/.config/nushell/scripts/themes/gruvbox-dark-hard.nu
+source ~/.config/nushell/scripts/themes/gruvbox-material-dark-hard.nu
