@@ -865,8 +865,7 @@ $env.config = {
     ]
 }
 
-use ~/.cache/starship/init.nu
+use ~/.config/nushell/scripts/starship.nu
 use ~/.config/nushell/scripts/conda.nu
 
-alias discord = flatpak run com.discordapp.Discord
 alias run-venv = sh -i -c 'source venv/bin/activate ; nu'
