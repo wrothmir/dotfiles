@@ -48,12 +48,6 @@
 
 # Enable the X11 windowing system.
 
-  # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "dvorak";
-  };
-
   # Configure console keymap
   console.keyMap = "dvorak";
 
@@ -87,6 +81,10 @@
 
   # Load nvidia driver for Xorg and Wayland
   services.xserver = {
+    xkb = {
+      layout = "us";
+      variant = "dvorak";
+    };
     enable = true;
     videoDrivers = ["nvidia"];
     displayManager.gdm = {
@@ -106,9 +104,7 @@
     };
 
     open = true;
-
     nvidiaSettings = true;
-
     package = config.boot.kernelPackages.nvidiaPackages.stable;
 
     prime = {
@@ -122,9 +118,11 @@
       nvidiaBusId = "PCI:1:0:0";
     };
   };
+  users.defaultUserShell = pkgs.nushell;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.ophiuchxs = {
+    shell = pkgs.nushell;
     isNormalUser = true;
     description = "ophiuchxs";
     extraGroups = [ "networkmanager" "wheel" ];
@@ -143,43 +141,17 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-  wget
-
-  vim   
-  kitty
-  alacritty
-  zellij
-  nushell
-  starship
-  neovim
-
-  discord
-  floorp
-
-  nemo
-
+  wget vim kitty alacritty zellij nushell starship neovim
+  discord floorp nemo
   font-awesome_5
-
-  hyprland
-  hyprland-protocols
-  wayland-utils
+  hyprland hyprland-protocols wayland-utils
   ];
 
   fonts.packages = with pkgs; [
     (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
   ];
 
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
   # List services that you want to enable:
-
 
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;

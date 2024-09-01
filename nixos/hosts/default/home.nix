@@ -22,23 +22,10 @@
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
-    alacritty
-    nemo
-    rofi-wayland
-    nnn
-    eww
-    git
-    discord
-    floorp
-
-    libgcc
-    gcc
-    nodejs_22
-    python3
-
-    htop
-    pciutils
-    lshw
+    alacritty nemo rofi-wayland nnn eww git
+    discord floorp
+    libgcc gcc nodejs_22 python3
+    htop pciutils lshw
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
