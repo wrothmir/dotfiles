@@ -203,8 +203,6 @@ pyenv_version_name = true
 # git settings
 [git_branch]
 symbol = " "
-truncation_length = 4
-truncation_symbol = ""
 
 # Battery information
 [battery]
