@@ -20,7 +20,7 @@
   networking.hostName = "nixos"; # Define your hostname.
 # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
-    nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 # Configure network proxy if necessary
 # networking.proxy.default = "http://user:password@proxy:port/";
 # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
@@ -54,10 +54,6 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
-  hardware.bluetooth.enable = true;
-
-  # Enable sound with pipewire.
-  hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
     enable = true;
@@ -74,49 +70,59 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
-
-  hardware.graphics = {
-    enable = true;
-  };
-
   # Load nvidia driver for Xorg and Wayland
-  services.xserver = {
-    xkb = {
-      layout = "us";
-      variant = "dvorak";
-    };
-    enable = true;
-    videoDrivers = ["nvidia"];
-    displayManager.gdm = {
+  services = {
+    xserver = {
+      xkb = {
+        layout = "us";
+        variant = "dvorak";
+      };
       enable = true;
-      wayland = true;
+      videoDrivers = ["nvidia"];
+      displayManager.gdm = {
+        enable = true;
+        wayland = true;
+      };
+      desktopManager.gnome.enable = true;
     };
-    desktopManager.gnome.enable = true;
+    # displayManager = {
+      # sddm = {
+        # enable = true;
+        # wayland.enable = true;
+      # };
+    # };
   };
 
-  hardware.nvidia = {
+  hardware = {
+    bluetooth.enable = true;
+    pulseaudio.enable = false;
 
-    # Modesetting is required.
-    modesetting.enable = true;
-    powerManagement = {
-      enable = false;
-      finegrained = false;
+    graphics = {
+      enable = true;
     };
 
-    open = true;
-    nvidiaSettings = true;
-    package = config.boot.kernelPackages.nvidiaPackages.stable;
-
-    prime = {
-      sync.enable = true;
-      # offload = {
+    nvidia = {
+      # Modesetting is required.
+      modesetting.enable = true;
+      powerManagement = {
+        enable = false;
+        finegrained = false;
+      };
+      open = true;
+      nvidiaSettings = true;
+      package = config.boot.kernelPackages.nvidiaPackages.stable;
+      prime = {
+        sync.enable = true;
+        # offload = {
         # enable = true;
         # enableOffloadCmd = true;
-      # };
-      # Make sure to use the correct Bus ID values for your system!
-      intelBusId = "PCI:0:2:0";
-      nvidiaBusId = "PCI:1:0:0";
+        # };
+        # Make sure to use the correct Bus ID values for your system!
+        intelBusId = "PCI:0:2:0";
+        nvidiaBusId = "PCI:1:0:0";
+      };
     };
+
   };
   users.defaultUserShell = pkgs.nushell;
 
@@ -137,6 +143,7 @@
 
   # Install firefox.
   programs.firefox.enable = true;
+  programs.hyprland.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
