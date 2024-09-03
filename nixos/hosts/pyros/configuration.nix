@@ -150,8 +150,7 @@
   environment.systemPackages = with pkgs; [
   wget vim kitty alacritty zellij nushell starship neovim
   discord nemo
-  font-awesome
-  gnome-tweaks
+  font-awesome_5
   hyprland hyprland-protocols wayland-utils
   ];
 
