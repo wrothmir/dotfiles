@@ -13,5 +13,5 @@
     ++ [ (import ./user.nix) ]
     # ++ [ (import ./virtualization.nix) ];
     ++ [ (import ./wayland.nix) ]
-    ++ [ (import ./xserver.nix) ]
+    ++ [ (import ./xserver.nix) ];
 }

@@ -4,7 +4,7 @@
     enable = true;
     
     userName = "nooodle-soup";
-    userEmail = "vineetagarwal2402@gmail.com"
+    userEmail = "vineetagarwal2402@gmail.com";
     
     extraConfig = { 
       init.defaultBranch = "main";
