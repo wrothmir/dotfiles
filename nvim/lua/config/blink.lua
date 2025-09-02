@@ -15,13 +15,35 @@ require("blink.cmp").setup {
   },
   completion = {
     menu = {
-      border = 'rounded',
+      border = "single",
+      draw = {
+        columns = {
+          { "label", gap = 10 },
+          { "kind_icon", gap = 1 },
+          { "kind" },
+          { "label_description" },
+        },
+
+        gap = 1,
+        treesitter = { "lsp" },
+      },
     },
+
+    list = {
+      selection = { preselect = false, auto_insert = true },
+    },
+
     documentation = {
+      auto_show = true,
+      auto_show_delay_ms = 200,
       window = {
-        border = 'rounded'
-      }
-    }
+        border = "single",
+      },
+    },
+
+    ghost_text = {
+      enabled = true,
+    },
   },
 
   signature = { enabled = true, window = { border = 'rounded' } },
@@ -38,3 +60,4 @@ require("blink.cmp").setup {
 --version = '*',
 --opts = {
 --},
+

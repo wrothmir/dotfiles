@@ -60,7 +60,14 @@ local function setLspKeymaps(opts)
   vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
   vim.keymap.set("n", "gtd", function() vim.lsp.buf.type_definition() end, opts)
   vim.keymap.set("n", "gi", function() vim.lsp.buf.implementation() end, opts)
-  vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
+  vim.keymap.set("n", "K", function()
+    vim.lsp.buf.hover {
+      border = "rounded",
+      max_height = 20,
+      max_width = 130,
+      close_events = { "CursorMoved", "BufLeave", "WinLeave", "LSPDetach" },
+    }
+  end, opts)
   vim.keymap.set("n", "<leader>dj", function() vim.diagnostic.goto_next() end, opts)
   vim.keymap.set("n", "<leader>dk", function() vim.diagnostic.goto_prev() end, opts)
   vim.keymap.set("n", "<leader>do", function() vim.diagnostic.open_float() end, opts)
