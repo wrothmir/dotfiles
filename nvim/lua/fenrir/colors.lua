@@ -1,4 +1,4 @@
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme ayu")
 
 vim.api.nvim_set_hl(0, "LspInlayHint", { fg = "#9DA9A0" })
 vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
