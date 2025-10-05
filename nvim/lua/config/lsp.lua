@@ -5,11 +5,17 @@ require 'lspconfig'.pylsp.setup({
   settings = {
     pylsp = {
       plugins = {
+        pycodestyle = { enabled = false }, -- disable default linting
+        pyflakes = { enabled = false },
+        mccabe = { enabled = false },
         ruff = {
           enabled = true,
           formatEnabled = true,    -- Enable formatting using ruffs formatter
           targetVersion = "py310", -- The minimum python version to target (applies for both linting and formatting).
         },
+        black = { enabled = true },
+        mypy = { enabled = true },
+        rope_autoimport = { enabled = true },
       }
     }
   },
