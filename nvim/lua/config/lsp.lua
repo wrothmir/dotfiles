@@ -5,9 +5,25 @@ require 'lspconfig'.pylsp.setup({
   settings = {
     pylsp = {
       plugins = {
-        pycodestyle = { enabled = false }, -- disable default linting
-        pyflakes = { enabled = false },
-        mccabe = { enabled = false },
+        -- All disabled to avoid overlap with ruff
+				-- list from python-lsp-ruff
+				pycodestyle = {
+					enabled = false,
+					maxLineLength = 150
+				},
+				mccabe = {
+					enabled = false,
+				},
+				pydocstyle = {
+					enabled = false,
+				},
+				-- autopep8, yapf formatieren beide, Unterschied unklar. yapf = false, autopep8 = true macht es so, wie ich es möchte
+				yapf = {
+					enabled = false,
+				},
+				autopep8 = {
+					enabled = false,
+				},
         ruff = {
           enabled = true,
           formatEnabled = true,    -- Enable formatting using ruffs formatter
@@ -15,11 +31,38 @@ require 'lspconfig'.pylsp.setup({
         },
         black = { enabled = true },
         mypy = { enabled = true },
-        rope_autoimport = { enabled = true },
+        rope = { enabled = true },
       }
     }
   },
 })
+
+require 'lspconfig'.basedpyright.setup {
+	capabilities = capabilities,
+	settings = {
+		basedpyright = {
+			-- reportImplicitOverride = false,
+			reportMissingSuperCall = "none",
+			-- reportUnusedImport = false,
+			-- basedpyright very intrusive with errors, this calms it down
+			typeCheckingMode = "standard",
+			-- works, if pyproject.toml is used
+			reportAttributeAccessIssue = false,
+			-- doesn't work, even if pyproject.toml is used
+			analysis = {
+				inlayHints = {
+					callArgumentNames = true -- = basedpyright.analysis.inlayHints.callArgumentNames
+				}
+			}
+		},
+		-- Ignore all files for analysis to exclusively use Ruff for linting
+		python = {
+			analysis = {
+				ignore = { '*' },
+			},
+		},
+	}
+}
 
 require 'lspconfig'.gopls.setup({ capabilites = capabilities, })
 
@@ -74,8 +117,8 @@ local function setLspKeymaps(opts)
       close_events = { "CursorMoved", "BufLeave", "WinLeave", "LSPDetach" },
     }
   end, opts)
-  vim.keymap.set("n", "<leader>dj", function() vim.diagnostic.goto_next() end, opts)
-  vim.keymap.set("n", "<leader>dk", function() vim.diagnostic.goto_prev() end, opts)
+  vim.keymap.set("n", "<leader>dj", function() vim.diagnostic.jump({1}) end, opts)
+  vim.keymap.set("n", "<leader>dk", function() vim.diagnostic.jump({-1}) end, opts)
   vim.keymap.set("n", "<leader>do", function() vim.diagnostic.open_float() end, opts)
   vim.keymap.set("n", "<leader>dl", "<cmd>Telescope diagnostics<cr>", opts)
   vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
