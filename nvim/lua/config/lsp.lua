@@ -117,8 +117,8 @@ local function setLspKeymaps(opts)
       close_events = { "CursorMoved", "BufLeave", "WinLeave", "LSPDetach" },
     }
   end, opts)
-  vim.keymap.set("n", "<leader>dj", function() vim.diagnostic.jump({1}) end, opts)
-  vim.keymap.set("n", "<leader>dk", function() vim.diagnostic.jump({-1}) end, opts)
+  vim.keymap.set("n", "<leader>dj", function() vim.diagnostic.jump({count=1}) end, opts)
+  vim.keymap.set("n", "<leader>dk", function() vim.diagnostic.jump({count=-1}) end, opts)
   vim.keymap.set("n", "<leader>do", function() vim.diagnostic.open_float() end, opts)
   vim.keymap.set("n", "<leader>dl", "<cmd>Telescope diagnostics<cr>", opts)
   vim.keymap.set("n", "<leader>vws", function() vim.lsp.buf.workspace_symbol() end, opts)
